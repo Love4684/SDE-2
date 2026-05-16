@@ -26,6 +26,10 @@ public class OOPBasics {
 
     // ========================================================
     // 3. METHOD OVERRIDING (Runtime Polymorphism)
+    // super.method() → parent class ki method forcefully call karo
+    // override nahi → parent method automatically chalegi
+    // static → class/reference decide karegi (compile time)
+    // non-static → actual object decide karega (runtime)
     // ========================================================
     static class Animal {
         String sound() { return "Some sound"; }
